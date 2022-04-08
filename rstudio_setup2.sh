@@ -24,9 +24,9 @@ sudo apt -y install libcurl4-openssl-dev
 sudo apt -y install libssl-dev libxml2-dev libmariadbclient-dev build-essential libcurl4-gnutls-dev
 
 # Install RStudio
-wget https://download2.rstudio.org/server/bionic/amd64/rstudio-server-1.2.1335-amd64.deb
-sudo gdebi -n rstudio-server-1.2.1335-amd64.deb
-sudo rm rstudio-server-1.2.1335-amd64.deb
+wget https://download2.rstudio.org/server/xenial/amd64/rstudio-server-1.4.1103-amd64.deb
+sudo gdebi rstudio-server-1.4.1103-amd64.deb
+sudo rm rstudio-server-1.4.1103-amd64.deb
 
 # Install tidyverse
 sudo R -e "install.packages('tidyverse')"
