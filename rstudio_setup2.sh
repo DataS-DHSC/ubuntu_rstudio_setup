@@ -29,7 +29,7 @@ sudo gdebi rstudio-server-1.4.1103-amd64.deb
 sudo rm rstudio-server-1.4.1103-amd64.deb
 
 # Install tidyverse
-sudo R -e "install.packages('tidyverse')"
+# sudo R -e "install.packages('tidyverse')"
 
 # Add user info to login RStudio
 sudo adduser rstudio
